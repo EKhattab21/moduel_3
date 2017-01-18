@@ -9,7 +9,6 @@ body {
 	border: 0;
 	border-radius: 0;
 	background-color: #2F4F4F;
-	height: 100px;
 }
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
