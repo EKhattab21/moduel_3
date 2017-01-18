@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+}
+body {
+	background-color: #FFFFF0;
+}
+/****** NAVBAR ******/
+#header-nav {
+	border: 0;
+	border-radius: 0;
+	background-color: #2F4F4F;
+	height: 100px;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-brand a {
+	margin: -10px;
+	color: #FFF5EE;
+	padding: 10px;
+	font-size: 2em;
+    text-transform: uppercase;
+    font-family: 'Rum Raisin', sans-serif;
+}
+#nav-list {
+  margin-top: 10px;
+  text-align: center;
+  background-color: white;
+  opacity: 0.9;
+}
+#nav-list a {
+  color: #696969;
+  font-family: 'Pacifico', cursive;
+  color: black;
+  font-size: 1.3em;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 2x solid black;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+} 
+/******* END NAVBAR ******/
+
+.title {
+	font-size: 35px;
+	color: Black;
+	font-family: 'Amita', cursive;
+}
+/******* MENUS *******/
+.box {
+	background-color: #2F4F4F;
+	padding-top: 12px;
+	border: 1px solid black;
+	margin: 10px;
+	padding: 20px;
+	position: relative;
+
+}
+.tittle1 {
+	font-size:30px;
+	font-family: 'Pacifico', cursive;
+	text-transform: capitalize;
+	color: gold;
+}
+section {
+     padding: 12px;
+}
+p {
+	font-size: 20px;
+    color: white;
+    font-family: 'Cherry Swash', cursive;
+}
+.top {
+	text-decoration: none;
+	color: red;
+}
+/* large devices  */
+@media (min-width: 1200px){
+	#section1, #section2, #section3 {
+        display: inline-block;
+		width: 100%;
+	} 
+}
+
+/* medium devices */
+@media (min-width: 768px) and (max-width: 991px) {
+    #section1, #section2, #section3 {
+        display: inline-block;
+    }
+    
+     #section1, #section2 {
+          width: 100%;
+     }
+
+    #section3 {
+        width: 100%;
+    }
+}
+
+/* small devices */
+@media (max-width: 767px) {
+  
+   #section1 {
+        width: 100%; 
+   } 
+
+   #section2 {
+       width: 100%;
+   }
+
+   #section3 {
+       width: 100%;
+   }
+
+}
